@@ -1,0 +1,12 @@
+{
+  "name": "crossing",
+  "n_side": 5,
+  "landmarks": [[0, 1], [0, 3]],
+  "agents": [
+    {"goal": 0, "level": 2, "chi": 0},
+    {"goal": 1, "level": 1, "chi": 1}
+  ],
+  "initial_state": {"agents": [[4, 0], [4, 4]], "cans": [[2, 3], [2, 1]]},
+  "steps": 12,
+  "params": {"tau": 5}
+}

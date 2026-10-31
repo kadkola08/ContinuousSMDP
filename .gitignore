@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# Generated outputs; the trained networks in out/neural/ are kept
+pysmdp/out/*
+!pysmdp/out/neural/
+# Regenerate with: python make_figures.py
+pysmdp/figures/

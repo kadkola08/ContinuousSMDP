@@ -1,0 +1,11 @@
+{
+  "name": "blocking_help",
+  "n_side": 5,
+  "landmarks": [[0, 1], [0, 3]],
+  "agents": [
+    {"goal": 0, "level": 2, "chi": 0},
+    {"goal": 1, "level": 1, "chi": 1}
+  ],
+  "initial_state": {"agents": [[4, 4], [3, 1]], "cans": [[2, 1], [0, 3]]},
+  "steps": 10
+}
